@@ -18,7 +18,7 @@ public class Sword extends Weapon {
     @Override
     public void description() {
         super.description();
-        System.out.println("Тип оружия - " + type);
+        System.out.println("Тип оружия - " + getType());
     }
 
     public String skillSword(String type) {

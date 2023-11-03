@@ -15,6 +15,46 @@ public class Weapon {
         this.weight = weight;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    public int getAttackSpeed() {
+        return attackSpeed;
+    }
+
+    public void setAttackSpeed(int attackSpeed) {
+        this.attackSpeed = attackSpeed;
+    }
+
+    public String getEnchantment() {
+        return enchantment;
+    }
+
+    public void setEnchantment(String enchantment) {
+        this.enchantment = enchantment;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public void sharpenSword(int increaseDamage) {
         this.damage += increaseDamage;
     }
@@ -25,10 +65,10 @@ public class Weapon {
     }
 
     public void description() {
-        System.out.println("Имя - " + name);
-        System.out.println("Атака - " + damage);
-        System.out.println("Вес - " + weight);
-        System.out.println("Зачарование - " + enchantment);
-        System.out.println("Скорость атаки - " + attackSpeed);
+        System.out.println("Имя - " + getName());
+        System.out.println("Атака - " + getDamage());
+        System.out.println("Вес - " + getWeight());
+        System.out.println("Зачарование - " + getEnchantment());
+        System.out.println("Скорость атаки - " + getAttackSpeed());
     }
 }
