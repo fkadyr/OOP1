@@ -1,6 +1,4 @@
-package org.example.task_oop;
-
-import java.util.Arrays;
+package org.example.task_3;
 
 public class Hero {
     private String name;

@@ -1,6 +1,6 @@
-package org.example.task_oop.weapon;
+package org.example.task_3.weapon;
 
-import org.example.task_oop.Weapon;
+import org.example.task_3.Weapon;
 
 public class Bow extends Weapon {
 

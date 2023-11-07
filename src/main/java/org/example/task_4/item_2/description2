@@ -1,0 +1,23 @@
+ Во второй задаче я сделал интерфейс машины. С помощью этого интерфеса я сделал разные реализации
+ других классов (Электромобиль, Бензиновый автомобиль, Гибридный автобиль). Для каждого класса я переопределил
+ метод description, и у каждого класса своя реализация этого метода. Дальше мы создали 500 обектов, перемешали их.
+ И для каждого объекта использовали метод description, и вывели на экран.
+ Получилось:
+ I am a petrol car and I pollute nature
+ I am a hybrid car and economical
+ I am a hybrid car and economical
+ I am a hybrid car and economical
+ I'm an electric car, and I'm eco-friendly
+ I am a hybrid car and economical
+ I am a petrol car and I pollute nature
+ I am a petrol car and I pollute nature
+ I'm an electric car, and I'm eco-friendly
+ I'm an electric car, and I'm eco-friendly
+ I am a hybrid car and economical
+ I am a hybrid car and economical
+ I am a petrol car and I pollute nature
+ I'm an electric car, and I'm eco-friendly
+ I am a petrol car and I pollute nature
+ ...
+ Получились разные описание машин. Потому что полиморфизм определил разные реализации.
+ И вызвал методы соответсвующий его объекту.

@@ -1,6 +1,4 @@
-package org.example.task_oop.weapon;
-
-import org.example.task_oop.Weapon;
+package org.example.task_4.item_1.weapon;
 
 public class Sword extends Weapon {
 
@@ -10,7 +8,7 @@ public class Sword extends Weapon {
         super(name, damage, attackSpeed, enchantment, weight);
         this.type = type;
     }
-
+    public Sword() {}
     public String getType() {
         return type;
     }
@@ -29,12 +27,5 @@ public class Sword extends Weapon {
         } else {
             return "When attacking with a two - handed sword , there is a chance to knock down the enemy";
         }
-    }
-
-    public static void main(String[] args) {
-        Sword sword = new Sword("Silver sword", 20, 10, "Effective against the undead",5, "sword");
-        System.out.println("skill - " + sword.skillSword(sword.getType()));
-        sword.sharpenSword(5);
-        sword.description();
     }
 }

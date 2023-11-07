@@ -1,4 +1,4 @@
-package org.example.task_oop;
+package org.example.task_3;
 
 public class Weapon {
     private String name;

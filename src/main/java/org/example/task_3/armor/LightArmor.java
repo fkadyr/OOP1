@@ -1,6 +1,6 @@
-package org.example.task_oop.armor;
+package org.example.task_3.armor;
 
-import org.example.task_oop.Armor;
+import org.example.task_3.Armor;
 
 public class LightArmor extends Armor {
     public LightArmor(String name, int protection, int weight, String enchantment) {

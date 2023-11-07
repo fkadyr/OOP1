@@ -1,6 +1,6 @@
-package org.example.task_oop.hero;
+package org.example.task_3.hero;
 
-import org.example.task_oop.Hero;
+import org.example.task_3.Hero;
 
 
 public class Warrior extends Hero {
